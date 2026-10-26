@@ -49,13 +49,8 @@ button:focus-visible {
 }
 
 @keyframes pageAppear {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 
@@ -73,7 +68,7 @@ button:focus-visible {
             rgba(18, 7, 17, 0.08),
             rgba(12, 7, 15, 0.35)
         ),
-        url("sunset.svg");
+        url("sunset.jpg");
 
     background-size: cover;
     background-position: center;
@@ -170,13 +165,8 @@ button:focus-visible {
 }
 
 @keyframes heartbeat {
-    0%, 100% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.2);
-    }
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
 }
 
 .main-button {
@@ -968,4 +958,4 @@ button:focus-visible {
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
     }
-}
+    
